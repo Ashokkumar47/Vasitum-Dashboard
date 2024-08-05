@@ -1,0 +1,327 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0px 0px 0px 50px; */
+  position: absolute;
+  width: 1300px;
+  height: 91px;
+  left: 180px;
+  top: 0px;
+  background-color: #fff;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  /* z-index: 1000; */
+}
+.navbar-left11{
+  display: none;
+}
+.navbar-content {
+  display: flex;
+  width: 100%;
+  max-width: 1198px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/*    .navbar-logo {
+    width: 400px; 
+    height: 62px; 
+    padding: 10px 0 0 0; 
+    margin-right: 10px; 
+    opacity: 1; 
+  }*/
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.menu11{
+  display: flex;
+  align-items: center;
+  width: 24px; /* Adjust icon size as needed */
+  height: 24px;
+
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 393px; /* Fixed width */
+  /* height: 44px;  */
+  padding: 10px 16px 10px 16px; /* Padding */
+  border-radius: 4px; /* Border radius for top-left corner */
+  border: 0.5px solid #ccc; /*Border, only top border visible*/
+  /* margin-right: 20px; */
+  opacity: 1; /* Visible (0 means invisible) */
+}
+
+.search-icon {
+  width: 24px; /* Adjust icon size as needed */
+  height: 24px;
+  /* margin-right: 1.5px;  */
+}
+
+.search-bar input {
+  border: none; /* No border on input field */
+  outline: none; /* Remove outline on focus */
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  margin-right: 20px; /* Remove default padding */
+  font-size: 16px; /* Font size */
+  color:  #B3B3B3;
+  font-weight: 400;
+  font-family: "Poppins";
+  
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+}
+
+.icon {
+ 
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile span {
+  font-family: "Poppins", sans-serif;
+  color: linear-gradient(0deg, #161e54, #161e54),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+  font-size: 16px;
+}
+
+/* Styling for SVG icons */
+.icon {
+  width: 24px; /* Adjust the size as needed */
+  height: 24px; /* Adjust the size as needed */
+  margin-right: 15px; /* Space between icons */
+  cursor: pointer;
+}
+
+/* Additional styling for hover or active states */
+.icon:hover {
+  opacity: 0.8; /* Change opacity on hover for visual feedback */
+}
+
+@media only screen and (max-width: 834px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+    position: fixed;
+   width: 834px;;
+    height: 80px;
+    left: 90px;
+    top: 0px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    /* z-index: 1000; */
+  }
+  .navbar-content {
+    display: flex;
+    width: 100%;
+    /* max-width: 1198px; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-left11{
+    display: none;
+  }
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo {
+    width: 169px; /* Fixed width */
+    height: 62px; /* Fixed height */
+    padding: 10px 0 0 0; /* Top padding */
+    margin-right: 10px; /* Gap between logo and text */
+    opacity: 1; /* Visible (0 means invisible) */
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 268px; /* Fixed width */
+    /* height: 44px;  */
+    padding: 6px 16px 6px 16px; /* Padding */
+    border-radius: 4px 0 0 0; /* Border radius for top-left corner */
+    border: 0.5px solid #ccc; /*Border, only top border visible*/
+    /* Border-width, visible only on top */
+    margin-right: 20px; /* Spacing to the right */
+    opacity: 1; /* Visible (0 means invisible) */
+  }
+
+  .search-icon {
+    width: 24px; /* Adjust icon size as needed */
+    height: 24px;
+    margin-right: 8px; /* Space between icon and input */
+  }
+
+  .search-bar input {
+    border: none; /* No border on input field */
+    outline: none; /* Remove outline on focus */
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    padding: 0; /* Remove default padding */
+    font-size: 14px; /* Font size */
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .icon {
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-profile span {
+    font-family: "Poppins", sans-serif;
+    color: hsla(232, 58%, 21%, 1);
+    font-size: 16px;
+  }
+
+  /* Styling for SVG icons */
+  .icon {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+    margin-right: 15px; /* Space between icons */
+    cursor: pointer;
+  }
+
+  /* Additional styling for hover or active states */
+  .icon:hover {
+    opacity: 0.8; /* Change opacity on hover for visual feedback */
+  }
+}
+
+
+@media only screen and (max-width:390px){
+  .navbar {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #F1F1F1;
+    
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+   width: 390px;;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    /* z-index: 1000; */
+  }
+
+  .navbar-left11{
+    display: block;
+    margin-left: 20px;
+  }
+  .navbar-content {
+    display: flex;
+    width: 100%;
+    /* max-width: 1198px; */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 268px; /* Fixed width */
+    /* height: 44px;  */
+    padding: 6px 16px 6px 16px; /* Padding */
+     /* Border radius for top-left corner */
+    border: 0px solid #ccc; /*Border, only top border visible*/
+    /* Border-width, visible only on top */
+    margin-right: 20px; /* Spacing to the right */
+    opacity: 1; /* Visible (0 means invisible) */
+  }
+
+  .search-icon {
+    
+    width: 24px; /* Adjust icon size as needed */
+    height: 24px;
+    margin-right: 8px; /* Space between icon and input */
+  }
+
+  .search-bar input {
+    display: none;
+   
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+  }
+
+  .icon {
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-profile span {
+    display: none;
+
+  }
+
+  /* Styling for SVG icons */
+  .icon {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+    margin-right: 15px; /* Space between icons */
+    cursor: pointer;
+  }
+
+  /* Additional styling for hover or active states */
+  .icon:hover {
+    opacity: 0.8; /* Change opacity on hover for visual feedback */
+  }
+}

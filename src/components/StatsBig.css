@@ -1,0 +1,126 @@
+
+.statsBig {
+
+    flex-direction: column;
+    background-color: #fefefe;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid  rgb(94, 92, 92);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10px;
+    width: 312px;
+    height: 190px;
+    /* margin-top: -110px; */
+  }
+  .stats-content1{
+     /* flex-direction: row; */
+    margin-top: -150px;
+    margin-left: 180px;
+
+  }
+
+  .statsBig h3 {
+    margin-top: 5px;
+    margin-left: 10px;
+    /* margin-bottom: 10px; */
+    text-align: left;
+    font-size: 18px;
+    color: (232, 58%, 21%, 1);
+    font-weight: 500;
+  }
+
+  .statsBig h1 {
+    margin-top: 5px;
+    margin-left: 10px;
+    /* margin-bottom: 10px; */
+    text-align: left;
+    font-size: 48px;
+    color: (232, 58%, 21%, 1);
+    font-weight: 500;
+  }
+  
+  .statsBig p{
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 4px;
+    color:  hsla(0, 0%, 41%, 1);
+    
+  }
+ 
+  @media only screen and (max-width: 834px){
+
+    
+.statsBig {
+
+  flex-direction: column;
+  background-color: #fefefe;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid  rgb(94, 92, 92);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 10px;
+  width: 312px;
+  height: 190px;
+  /* margin-top: -110px; */
+}
+.stats-content1{
+   /* flex-direction: row; */
+  margin-top: -150px;
+  margin-left: 180px;
+
+}
+
+.statsBig h3 {
+  margin-top: 5px;
+  margin-left: 10px;
+  /* margin-bottom: 10px; */
+  text-align: left;
+  font-size: 18px;
+  color: (232, 58%, 21%, 1);
+  font-weight: 500;
+}
+
+.statsBig h1 {
+  margin-top: 5px;
+  margin-left: 10px;
+  /* margin-bottom: 10px; */
+  text-align: left;
+  font-size: 48px;
+  color: (232, 58%, 21%, 1);
+  font-weight: 500;
+}
+
+.statsBig p{
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px;
+  color:  hsla(0, 0%, 41%, 1);
+  
+}
+
+
+  }
+  
+  @media only screen and (max-width: 390px){
+
+    .statsBig {
+
+    
+      margin: 10px;
+      width: 300px;
+      height: 190px;
+      /* margin-top: -110px; */
+    }
+
+
+  }
